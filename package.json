@@ -5,7 +5,9 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "deploy": "ng build --base-href=/personal-cv/ && ngh --dir=dist/personal-cv",
+    "deploy": "mkdir -p docs/ && mv dist/personal-cv/browser/* docs/ && ngh --dir=docs/",
+    "deploy-2": "ng deploy --base-href=/https://nachoritos01.github.io/resumen-cv/",
+    "deploy-3": "ng deploy --base-href=https://github.com/nachoritos01/resumen-cv",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:personal-cv": "node dist/personal-cv/server/server.mjs"
