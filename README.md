@@ -1,6 +1,14 @@
-Aquí tienes una versión en formato markdown de tu perfil y la explicación de los comandos para correr el proyecto en local:
+- [ 🚀 Visita mi resumen CV](https://nachoritos01.github.io/resumen-cv/home)
+
+- [ 🚀 Descarga mi CV](https://nachoritos01.github.io/resumen-cv/home)
 
 ---
+
+[![Resume Matcher](Assets/img/webapp_demo.gif)](https://www.resumematcher.fyi)
+
+---
+
+![Resume_Matcher_streamlit_demo](Assets/img/Resume_Matcher_Gif.gif)
 
 # Ignacio Navarrete
 
