@@ -1,14 +1,10 @@
 - [ 🚀 Visita mi resumen CV](https://nachoritos01.github.io/resumen-cv/home)
 
-- [ 🚀 Descarga mi CV](https://nachoritos01.github.io/resumen-cv/home)
+- [ 🚀 Descarga mi CV](public/pdf/CV-Ignacio-Navarrete.pdf)
 
 ---
 
-[![Resume Matcher](Assets/img/webapp_demo.gif)](https://www.resumematcher.fyi)
-
----
-
-![Resume_Matcher_streamlit_demo](Assets/img/Resume_Matcher_Gif.gif)
+![Resume_Matcher_streamlit_demo](public/images/Ignacio-Navarrete-Resumen-CV.gif)
 
 # Ignacio Navarrete
 
