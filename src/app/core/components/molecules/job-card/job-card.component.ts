@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
+import { JobInterface, jobs } from '../../../../pages/home/store/job.store';
 
 @Component({
   selector: 'app-job-card',
@@ -9,4 +10,9 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   styleUrl: './job-card.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class JobCardComponent {}
+export class JobCardComponent implements OnInit {
+  public lastJobs: JobInterface[] = [];
+  ngOnInit(): void {
+    this.lastJobs = jobs();
+  }
+}

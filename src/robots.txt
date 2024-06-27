@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /admin/
+Allow: /
+Sitemap: https://nachoritos01.github.io/resumen-cv/sitemap.xml
