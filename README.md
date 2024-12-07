@@ -1,6 +1,6 @@
 - [ 🚀 Visita mi resumen CV](https://nachoritos01.github.io/resumen-cv/home)
 
-- [ 🚀 Descarga mi CV](public/pdf/CV-Ignacio-Navarrete.pdf)
+- [ 🚀 Descarga mi CV](public/pdf/Ignacio_Navarrete_CV_2024.pdf)
 
 ---
 

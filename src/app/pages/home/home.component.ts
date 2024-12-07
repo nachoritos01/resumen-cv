@@ -24,6 +24,26 @@ import { JobInterface, jobs } from './store/job.store';
 export default class HomeComponent implements OnInit {
   public jobsData: JobInterface[] = [
     {
+      skilSets: ['angular 18', 'Tailwild', 'SSO'],
+      companyName: 'Procetti',
+      timePeriod: 'Agosto. 2024 - Actualidad',
+      title: 'Desarrollador de front-end angular',
+      description: [
+        `
+       Reorganización de la Estructura del Proyecto: Creación de carpetas específicas para cada tipo de archivo, incluyendo páginas, guards, enums, interfaces, helpers, componentes, pipes y servicios. Esto ha permitido una mayor claridad y eficiencia en la gestión del código.
+
+
+
+        `,
+        `
+        Eliminación de Código Repetido: He optimizado el rendimiento de la aplicación al eliminar código redundante, lo que resultó en una mejora significativa en la estabilidad y la eficiencia general del proyecto.`,
+        `Refactorización de Interfaces y Métodos: Renombré y estructuré interfaces, enums, constantes, métodos y funciones para asegurar que cada uno tenga una única responsabilidad, organizándolos en archivos más específicos.
+`,
+      ],
+      socialMedia: ['https://www.linkedin.com/company/proceti'],
+    },
+
+    {
       skilSets: ['angular', 'Tailwild', 'Jira'],
       companyName: 'Neoris',
       timePeriod: '2 años abr. 2022 - mar. 2024',
@@ -61,20 +81,12 @@ export default class HomeComponent implements OnInit {
       title: 'Desarrollador front end en Sr',
       description: [
         `
-      Participé en el proyecto de Bursanet de Actinver, fue una
-      migración del proyecto que estaba en AngularJs y se migró a
-      angular 12, apoye creando el código base y agregando un widget
-      dinámico que controla y monitorea ETFs y su cotización en la
-      bolsa. Desarrolle componentes y módulos y uso de servicios de
-      angular.
+      Participé en el proyecto de Bursanet de Actinver, fue una migración del proyecto que estaba en AngularJs y se migro a angular 12, apoye creando el código base y agregando un widget dinámico que controlaba y monitoreaba ETFs y su cotización en la bolsa. desarrolle componentes y módulos y uso de servicios de angular. 
+
+.
               `,
         `
-             Trabajando en equipo y cédulas para mayor rendimiento. Uso de
-      figma para revisión del diseño y maquetación, gitlab para manejo
-      de repositorios. Trabajando con los principios del desarrollo
-      flexible Agile (SCRUM), para sprints cortos y mostrando
-      resultados visibles, sólida comprensión de los procesos de
-      desarrollo.`,
+             Trabajando en equipo y cédulas para mayor rendimiento. Uso de figma para revisión del diseño  y maquetación, gitlab para manejo de repositorios. Trabajando con los principios del desarrollo flexible Agile (SCRUM), para sprints cortos y mostrando resultados visibles, solida comprensión de los procesos de desarrollo.`,
       ],
       socialMedia: ['https://www.linkedin.com/company/novasolutionsystems/'],
     },
