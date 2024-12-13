@@ -1,3 +1,5 @@
+<!-- filepath: /home/nachoritos/projects/personal-cv/src/app/pages/home/home.component.html -->
+
 <main>
   <section
     id="home"
@@ -25,30 +27,30 @@
     <div class="mx-auto max-w-[900px] px-4 sm:px-8 xl:px-0 relative z-1">
       <div class="text-center">
         <a
-          href="pdf/Ignacio_Navarrete_CV_2024.pdf"
-          download="cv-ignacio-navarrete"
+          [href]="'pdf/Ignacio_Navarrete_CV_2024_' + lang + '.pdf'"
+          [download]="'cv-ignacio-navarrete-' + lang"
           class="hero-subtitle-gradient hover:hero-subtitle-hover relative mb-5 font-medium text-sm inline-flex items-center gap-2 py-2 px-4.5 rounded-full"
         >
           <img src="images/icon-title.svg" alt="icon" />
-          <span class="hero-subtitle-text"> Descargar CV </span>
+          <span class="hero-subtitle-text">{{
+            "DOWNLOAD_CV" | translate
+          }}</span>
         </a>
         <h1
           class="text-white mb-6 text-3xl font-extrabold sm:text-5xl xl:text-heading-1"
         >
-          ¡Hola! Soy Ignacio Navarrete
+          {{ "HELLO" | translate }}
         </h1>
+        <h1>{{ "WELCOME" | translate }}</h1>
         <p class="max-w-[500px] mx-auto mb-9 font-medium md:text-lg">
-          Mi especialización en desarrollo frontend avanzado con Angular me ha
-          permitido contribuir significativamente al éxito de numerosos
-          proyectos. he dominado esta tecnología clave para la creación de
-          aplicaciones web modernas e intuitivas.
+          {{ "INTRO_TEXT" | translate }}
         </p>
         <a
-          href="pdf/Ignacio_Navarrete_CV_2024.pdf"
-          download="cv-ignacio-navarrete"
+          [href]="'pdf/Ignacio_Navarrete_CV_2024_' + lang + '.pdf'"
+          [download]="'cv-ignacio-navarrete-' + lang"
           class="hero-button-gradient inline-flex rounded-lg py-3 px-7 text-white font-medium ease-in duration-300 hover:opacity-80"
         >
-          Descargar CV
+          {{ "DOWNLOAD_CV" | translate }}
         </a>
       </div>
     </div>
@@ -66,7 +68,7 @@
         <h2
           class="text-white mb-4.5 text-2xl font-extrabold sm:text-4xl xl:text-heading-2"
         >
-          Experiencia laboral
+          {{ "WORK_EXPERIENCE" | translate }}
         </h2>
       </div>
     </div>
@@ -78,7 +80,7 @@
   <app-contact /> 
   -->
 
-  <app-job-card />
+  <app-job-card [lastJobs]="jobsData" />
   <app-skills />
 
   <section>
@@ -111,21 +113,17 @@
           <h2
             class="text-white mb-4.5 text-2xl font-extrabold sm:text-4xl xl:text-heading-2"
           >
-            Front end developer especializado en Angular
+            {{ "FRONTEND_DEVELOPER" | translate }}
           </h2>
           <p class="max-w-[714px] mx-auto font-medium mb-9">
-            Estoy emocionado por nuevas oportunidades para colaborar en
-            proyectos desafiantes y contribuir al éxito de equipos dinámicos. Si
-            buscas un profesional comprometido y apasionado por la innovación en
-            el desarrollo de software web, estaré encantado de ser parte de tu
-            equipo.
+            {{ "EXCITED_OPPORTUNITIES" | translate }}
           </p>
           <a
-            href="pdf/Ignacio_Navarrete_CV_2024.pdf"
-            download="cv-ignacio-navarrete"
+            [href]="'pdf/Ignacio_Navarrete_CV_2024_' + lang + '.pdf'"
+            [download]="'cv-ignacio-navarrete-' + lang"
             class="hero-button-gradient inline-flex rounded-lg py-3 px-7 text-white font-medium ease-in duration-300 hover:opacity-80"
           >
-            Descargar CV
+            {{ "DOWNLOAD_CV" | translate }}
           </a>
         </div>
       </div>
