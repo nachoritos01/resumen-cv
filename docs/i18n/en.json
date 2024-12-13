@@ -1,0 +1,40 @@
+{
+  "WELCOME": "Welcome",
+  "DOWNLOAD_CV": "Download CV",
+  "HELLO": "Hello! I am Ignacio Navarrete",
+  "INTRO_TEXT": "My specialization in advanced frontend development with Angular has allowed me to significantly contribute to the success of numerous projects. I have mastered this key technology for creating modern and intuitive web applications.",
+  "WORK_EXPERIENCE": "Work Experience",
+  "FRONTEND_DEVELOPER": "Front end developer specialized in Angular",
+  "EXCITED_OPPORTUNITIES": "I am excited about new opportunities to collaborate on challenging projects and contribute to the success of dynamic teams. If you are looking for a committed professional passionate about innovation in web software development, I would be delighted to be part of your team.",
+  "PROCETTI_TITLE": "Frontend Developer (Angular)",
+  "SKILLS": "Skills",
+  "TOOLS": "Tools",
+  "PROCETTI_TIME_PERIOD": "August 2024 - Present",
+  "PROCETTI_DESCRIPTION_1": "Project Structure Reorganization: Created specific folders for each type of file, including pages, guards, enums, interfaces, helpers, components, pipes, and services. This has allowed for greater clarity and efficiency in code management.",
+  "PROCETTI_DESCRIPTION_2": "Elimination of Redundant Code: Optimized application performance by removing redundant code, resulting in significant improvements in overall project stability and efficiency.",
+  "PROCETTI_DESCRIPTION_3": "Refactoring of Interfaces and Methods: Renamed and structured interfaces, enums, constants, methods, and functions to ensure each has a single responsibility, organizing them into more specific files.",
+  
+  "NEORIS_TITLE": "Frontend Developer (Angular)",
+  "NEORIS_TIME_PERIOD": "2 years Apr. 2022 - Mar. 2024",
+  "NEORIS_DESCRIPTION_1": "Participated for over a year at Cemex as a frontend developer responsible for implementing new features and improvements for the cement area. Collaborated on new features for the UK, GB, and CZ in the online order shipping process. For CZ, created the base configuration as predefined objects, adhering to project patterns for proper functionality and development best practices, constantly pulling user stories to advance development.",
+  "NEORIS_DESCRIPTION_2": "Worked on Angular 7 using NGRX, utilizing actions, reducers, selectors, and effects, and also used Angular RxJS for data manipulation. Considered a robust, highly configurable, adaptable, and stable project. Addressed development bugs focused on the frontend for these countries. Used the Kanban board for agile task flow and tracking.",
+  
+  "NOVA_TITLE": "Senior Frontend Developer",
+  "NOVA_TIME_PERIOD": "Nov 2021 - Apr. 2022",
+  "NOVA_DESCRIPTION_1": "Participated in the Bursanet project of Actinver, a migration from AngularJS to Angular 12. Supported by creating the base code and adding a dynamic widget that controlled and monitored ETFs and their stock market quotes. Developed components and modules and used Angular services.",
+  "NOVA_DESCRIPTION_2": "Worked in teams and cells for greater efficiency. Used Figma for design review and layout, GitLab for repository management. Worked with Agile (SCRUM) development principles for short sprints and visible results, solid understanding of development processes.",
+  
+  "RELAPPRO_TITLE": "Frontend Developer",
+  "RELAPPRO_TIME_PERIOD": "Oct. 2017 - Sep. 2021",
+  "RELAPPRO_DESCRIPTION_1": "Supported development from scratch, helping to increase company profits with the support of an administration panel. Worked on the frontend side, the project was related to advertising through Google tags and involved maintaining all information about agencies, campaigns, publishers, payments, users, sites, providers, revenue, a blacklist of sites, uploading videos, billing, graphs, and creating and manipulating tags. The entire panel was built in Angular and Angular Material in v8. It is still functioning independently thanks to the script built in TypeScript, which we improved until reaching v5, a stable and fast version.",
+  
+  "SIMETRICAL_TITLE": "PHP Web Developer",
+  "SIMETRICAL_TIME_PERIOD": "Mar. 2016 - Oct. 2017",
+  "SIMETRICAL_DESCRIPTION_1": "Participated for over a year at Cemex as a frontend developer responsible for implementing new features and improvements for the cement area. Collaborated on new features for the UK, GB, and CZ in the online order shipping process. For CZ, created the base configuration as predefined objects, adhering to project patterns for proper functionality and development best practices, constantly pulling user stories to advance development.",
+  "SIMETRICAL_DESCRIPTION_2": "Worked on Angular 7 using NGRX, utilizing actions, reducers, selectors, and effects, and also used Angular RxJS for data manipulation. Considered a robust, highly configurable, adaptable, and stable project. Addressed development bugs focused on the frontend for these countries. Used the Kanban board for agile task flow and tracking.",
+  
+  "EFISENSE_TITLE": "Backend PHP Developer",
+  "EFISENSE_TIME_PERIOD": "Jan. 2014 - Apr. 2015",
+  "EFISENSE_DESCRIPTION_1": "Developer of the visual part of company sites and systems, as well as proposing alternatives in interface design and user experience. Responsive web layout and design for multiple device viewing, with knowledge of Material Design and AngularJS.",
+  "EFISENSE_DESCRIPTION_2": "Web developer and programmer working on various company projects, also offering online support and assistance. Developed modules and updates for existing systems. Provided support and maintenance to customer-requested equipment."
+}
