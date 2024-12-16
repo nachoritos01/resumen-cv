@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --configuration production",
     "deploy": "mkdir -p docs/ && mv dist/personal-cv/browser/* docs/ && ngh --dir=docs/",
     "deploy-pre-prod": "ng deploy --base-href=https://nachoritos01.github.io/resumen-cv/",
     "watch": "ng build --watch --configuration development",

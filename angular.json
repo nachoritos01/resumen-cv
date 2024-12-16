@@ -43,6 +43,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "https://nachoritos01.github.io/resumen-cv/",
               "budgets": [
                 {
                   "type": "initial",
